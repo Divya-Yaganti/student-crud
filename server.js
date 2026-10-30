@@ -10,7 +10,7 @@ let students = [
     { id: 2, name: "Rahul" }
 ];
 app.get("/", (req, res) => {
-    res.send("Student CRUD Application");
+    res.send("Continuous Integration is Working!");
 });
 
 // GET - Get all students
