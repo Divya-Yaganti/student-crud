@@ -9,6 +9,9 @@ let students = [
     { id: 1, name: "Divya" },
     { id: 2, name: "Rahul" }
 ];
+app.get("/", (req, res) => {
+    res.send("Student CRUD Application");
+});
 
 // GET - Get all students
 app.get("/students", (req, res) => {
